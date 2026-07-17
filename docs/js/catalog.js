@@ -132,6 +132,11 @@ window.CATALOG = [
     price: 40,
     desc: "Party tray (pre-order 3+ days ahead).",
     img: "./img/party-lumpia.png",
+    hasVariant: true,
+    variants: [
+      { key: "pork", label: "Pork Lumpia", multiplier: 1 },
+      { key: "vegetable", label: "Vegetable Lumpia", multiplier: 1 },
+    ],
   },
   {
     id: "party-lumpia-60",
@@ -140,6 +145,11 @@ window.CATALOG = [
     price: 70,
     desc: "Party tray (pre-order 3+ days ahead).",
     img: "./img/party-lumpia.png",
+    hasVariant: true,
+    variants: [
+      { key: "pork", label: "Pork Lumpia", multiplier: 1 },
+      { key: "vegetable", label: "Vegetable Lumpia", multiplier: 1 },
+    ],
   },
   {
     id: "party-rangoon-30",

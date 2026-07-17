@@ -20,6 +20,8 @@ body{
   background-position: center top;
 }
 
+
+
 .hero-landing{
   background-color: #faf6ee;
   width: 100%;
@@ -477,4 +479,12 @@ button[disabled]{
     transform: translateY(12px);
     opacity: 0;
   }
+
+}
+
+.ss-form input,
+.ss-form textarea,
+.ss-form select,
+.ss-form button {
+  font-family: 'More Sugar', cursive;
 }
